@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f9f9f9;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+}
+
+.paper {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.paper h3 {
+    margin: 0;
+}
+
+.paper a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.paper p {
+    margin: 5px 0;
+    color: #555;
+}
