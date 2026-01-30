@@ -15,6 +15,13 @@ $result = mysqli_query($conn, "SELECT * FROM papers ORDER BY year DESC");
 <h2>📋 Admin Dashboard</h2>
 
 <p>
+    <a href="tambah.php">➕ Tambah Artikel</a> |
+    <a href="tambah_admin.php">👤 Tambah Admin</a> |
+    <a href="../index.php">🔙 Lihat Website</a>
+</p>
+
+
+<p>
     Login sebagai: <b><?= $_SESSION['admin'] ?></b> |
     <a href="logout.php">🚪 Logout</a>
 </p>
